@@ -260,18 +260,18 @@ function display_record($id, $full = false)
     
     if ($full) 
     {
- 		$xsl_filename = dirname(__FILE__) . '/' . 'scanned-pages.xsl';    
+ 		$xsl_filename = dirname(__FILE__) . '/xsl/' . 'scanned-pages.xsl';    
     }
     else
     {
-	    $xsl_filename = dirname(__FILE__) . '/' . 'no-full-text.xsl';
+	    $xsl_filename = dirname(__FILE__) . '/xsl/' . 'no-full-text.xsl';
 	}
    
     
     if (isset($work->message->xml))
     {
     	$xml = $work->message->xml;
-    	$xsl_filename = dirname(__FILE__) . '/' . 'full-text.xsl';
+    	$xsl_filename = dirname(__FILE__) . '/xsl/' . 'full-text.xsl';
     }
     else
     {
