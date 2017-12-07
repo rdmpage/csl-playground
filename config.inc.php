@@ -54,7 +54,7 @@ switch ($site)
 				'host' => getenv('CLOUDANT_USERNAME') . ':' . getenv('CLOUDANT_PASSWORD')
 					. '@rdmpage.cloudant.com',
 				'port' => 5984,
-				'prefix' => 'https://'
+				'prefix' => 'http://'
 				);	
 		break;
 		
