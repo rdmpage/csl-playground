@@ -322,7 +322,7 @@ function display_record($id, $full = false)
     echo '    </div>
       </div>
       <div class="col-md-4">
-        <div class="row" id="meta"> 
+        <div class="row affix" id="meta"> 
           <div>
             <h4>
               Files

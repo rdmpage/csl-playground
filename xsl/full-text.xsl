@@ -194,7 +194,7 @@ exclude-result-prefixes="xlink mml tp"
 <!-- -->
 
 <xsl:template match="/">
-    <div style="height:500px;overflow-y:auto;">
+    <div>
 
     	 <xsl:apply-templates select="//front" />
     	 
