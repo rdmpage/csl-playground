@@ -1,0 +1,51 @@
+RewriteEngine On
+
+# Some hosts may require you to use the `RewriteBase` directive.
+# If you need to use the `RewriteBase` directive, it should be the
+# absolute physical path to the directory that contains this htaccess file.
+#
+RewriteBase /
+#RewriteBase /~rpage/csl-playground/
+
+Options -Multiviews
+
+#-----------------------------------------------------------------------------------------
+# Work
+RewriteRule ^work/(.*)/full$  index.php?id=$1&full [NC,L]
+RewriteRule ^work/(.*)$  index.php?id=$1 [NC,L]
+
+#-----------------------------------------------------------------------------------------
+# ISSN
+RewriteRule ^issn/([0-9]{4})-([0-9]{3})([0-9]|X)/year/([0-9]{4})   ?issn=$1-$2$3&year=$4 [NC,L]
+RewriteRule ^issn/([0-9]{4})-([0-9]{3})([0-9]|X)$   ?issn=$1-$2$3 [NC,L]
+
+#-----------------------------------------------------------------------------------------
+# OCLC
+RewriteRule ^oclc/([0-9]+)/year/([0-9]{4})   ?oclc=$1&year=$2 [NC,L]
+RewriteRule ^oclc/([0-9]+)$   ?oclc=$1 [NC,L]
+
+#-----------------------------------------------------------------------------------------
+# One container
+RewriteRule ^container/(.*)/year/([0-9]{4})    ?container=$1&year=$2 [NC,L]
+RewriteRule ^container/(.*)$   ?container=$1 [NC,L]
+
+#-----------------------------------------------------------------------------------------
+# All titles (containers)
+RewriteRule ^titles/letter/([A-Z])   ?titles&letter=$1 [NC,L]
+RewriteRule ^titles   ?titles [NC,L]
+
+#-----------------------------------------------------------------------------------------
+# Search
+RewriteRule ^search/(.*)/bookmark/(.*)   ?q=$1&bookmark=$2  [NC,L]
+RewriteRule ^search/(.*)   ?q=$1   [NC,L]
+
+#-----------------------------------------------------------------------------------------
+# OpenURL
+#RewriteRule ^openurl/(.*)   api_openurl.php$1   [NC, L]
+
+#-----------------------------------------------------------------------------------------
+# API
+#RewriteRule ^reconcile(.*)	api_reconciliation.php$1
+
+
+
