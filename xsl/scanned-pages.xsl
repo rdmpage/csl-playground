@@ -6,7 +6,7 @@
     
 	<xsl:param name="work" />      
 	
-    <xsl:include href="xsl/shared.xsl" />
+    <xsl:include href="shared.xsl" />
     
     <xsl:template match="/">
     	 <xsl:apply-templates select="//front" />
@@ -30,7 +30,6 @@
             </xsl:if>
     </xsl:template>
 
-    
     <!-- scanned page -->
     
     <!-- suppress thumbnails -->
