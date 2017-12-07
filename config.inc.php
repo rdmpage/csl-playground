@@ -52,7 +52,7 @@ switch ($site)
 		$config['couchdb_options'] = array(
 				'database' => 'cal-playground', // note typo
 				'host' => getenv('CLOUDANT_USERNAME') . ':' . getenv('CLOUDANT_PASSWORD')
-					. 'rdmpage.cloudant.com',
+					. '@rdmpage.cloudant.com',
 				'port' => 5984,
 				'prefix' => 'https://'
 				);	
