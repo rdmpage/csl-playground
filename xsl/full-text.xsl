@@ -273,6 +273,8 @@ exclude-result-prefixes="xlink mml tp"
    			<xsl:when test="@ref-type='fig'">
 				<a> 
 					<xsl:attribute name="href">
+						<xsl:text>work/</xsl:text>
+						<xsl:value-of select="$work" />
 						<xsl:text>#</xsl:text>
 						<xsl:value-of select="@rid" />
 					</xsl:attribute>
