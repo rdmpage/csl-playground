@@ -194,6 +194,8 @@ exclude-result-prefixes="xlink mml tp"
 <!-- -->
 
 <xsl:template match="/">
+    <div style="height:100%;overflow-y:auto;">
+
     	 <xsl:apply-templates select="//front" />
     	 
         <xsl:if test="//front/article-meta/abstract">
@@ -206,6 +208,8 @@ exclude-result-prefixes="xlink mml tp"
 	
 	<!-- Biodiversity Data Journal -->
 	<xsl:apply-templates select="//floats-group"/>
+	
+	</div>
 
 </xsl:template>
 
