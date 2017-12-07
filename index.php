@@ -197,7 +197,7 @@ function display_record($id, $full = false)
 	$url = $config['web_server'] . $config['web_root'] . 'api.php?id=' . urlencode($id);
 	$json = get($url);
 	
-	//echo $json;
+	echo $json;
 
 	$work = json_decode($json);
 	
@@ -287,7 +287,7 @@ function display_record($id, $full = false)
 	{
 		// display
 		//header("Content-type: text/xml");
-		//echo $xml;
+		echo $xml;
 		
 		// style sheet
 
