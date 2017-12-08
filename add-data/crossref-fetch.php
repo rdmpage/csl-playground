@@ -101,6 +101,8 @@ $dois=array('10.1017/s0960428615000177');
 
 $dois=array('10.4039/n04-096');
 
+$dois=array('10.3161/00034541ANZ2016.66.3.010');
+
 foreach ($dois as $doi)
 {
 	$doi = strtolower($doi);
