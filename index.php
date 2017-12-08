@@ -340,6 +340,10 @@ function display_record($id, $full = false)
      {
      	echo '<div id="doi">' . $work->message->DOI . '</div>';
      }
+     if (isset($work->message->HANDLE))
+     {
+     	echo '<div id="handle">' . $work->message->HANDLE . '</div>';
+     }
      if (isset($work->message->JSTOR))
      {
      	echo '<div id="jstor">' . $work->message->JSTOR . '</div>';
@@ -369,7 +373,6 @@ function display_record($id, $full = false)
               Author identifiers
             </h4>
             <div id="orcid"></div>
-        
           </div>
           
           <!-- other versions of this record -->
@@ -377,8 +380,7 @@ function display_record($id, $full = false)
             <h4>
               Versions
             </h4>
-            <div id="versions"></div>
-        
+            <div id="versions"></div>        
           </div>
           
           
@@ -397,6 +399,15 @@ function display_record($id, $full = false)
 	{
 		echo '<script>show_map("' . $id . '");</script>';
 	}
+	
+	if (isset($work->message->DOI))
+	{
+		echo '<script>' . "\n";	
+    	echo '// Wikidata, ORCID, etc.' . "\n";
+      	echo 'doi_in_wikidata("' . $work->message->DOI . '");' . "\n";
+      	echo 'doi_in_orcid("' . $work->message->DOI . '");' . "\n";
+    	echo '</script>' . "\n";
+    }
 	
 	display_html_end();	
 
@@ -477,6 +488,7 @@ function display_html_start($title = '', $meta = '', $script = '')
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js" type="text/javascript"></script>
 
     <script src="js/map.js"></script>
+    <script src="js/identifiers.js"></script>
 	
 	'	
 	. $script . '
