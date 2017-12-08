@@ -11,7 +11,7 @@ WHERE
 			$.getJSON('https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=' + encodeURIComponent(sparql),
 				function(data){
 				  if (data.results.bindings.length == 1) {
-            document.getElementById("wikidata").innerHTML = 'Wikidata: <a href="' + data.results.bindings[0].work.value + '">' + data.results.bindings[0].work.value.replace("http://www.wikidata.org/entity/","") + '</a>';
+            document.getElementById("wikidata").innerHTML = '<b>wikidata:</b> <a href="' + data.results.bindings[0].work.value + '" target="_new">' + data.results.bindings[0].work.value.replace("http://www.wikidata.org/entity/","") + '</a>';
 
 				  }
 			});			

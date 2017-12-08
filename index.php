@@ -338,7 +338,7 @@ function display_record($id, $full = false)
             
      if (isset($work->message->DOI))
      {
-     	echo '<div id="doi">' . $work->message->DOI . '</div>';
+     	echo '<div id="doi">' . '<b>doi:</b> ' . '<a href="https://doi.org/' . $work->message->DOI . '" target="_new">' . $work->message->DOI . '</a></div>';
      }
      if (isset($work->message->HANDLE))
      {
