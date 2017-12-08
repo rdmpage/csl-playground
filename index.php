@@ -356,14 +356,8 @@ function display_record($id, $full = false)
      {
      	echo '<div id="pmc">' . $work->message->PMC . '</div>';
      }
-            
-            /*
-            <div id="doi"></div>
-            <div id="jstor"></div>
-            <div id="pmid"></div>
-            <div id="pmc"></div>
-            <div id="handle"></div> 
-            <div id="wikidata"></div> */
+ 
+    echo '<div id="wikidata"></div>';
             
     echo '      </div>
           
