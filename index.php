@@ -310,13 +310,11 @@ function display_record($id, $full = false)
 		
 		if (!$full)
 		{
-			echo '<div id="map" style="width:100%; height:300px;border:1px solid rgb(192,192,192);">
+			echo '<div id="map" style="display:none;width:100%; height:300px;border:1px solid rgb(192,192,192);">
 			Map
         	</div>';
         }
-				
-		
-	}        
+		   
         
     
     echo '    </div>
