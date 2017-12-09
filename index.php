@@ -214,7 +214,7 @@ function opengraph_tags ($work)
 		$count = 0;
 		foreach ($work->message->{'page-images'} as $k => $v)
 		{
-			$og .= '<meta name="og:url" content="' . $v . '" />' . "\n";
+			$og .= '<meta name="og:image" content="' . $v . '" />' . "\n";
 		
 			$count++;
 			if ($count > 0)
