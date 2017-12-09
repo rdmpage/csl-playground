@@ -200,11 +200,13 @@ function opengraph_tags ($work)
 	
 	if (isset($work->message->title))
 	{
-		$og .= '<meta name="og:title" content="' . htmlentities($work->message->title, ENT_COMPAT | ENT_HTML5, 'UTF-8') . '" />' . "\n";
+		//$og .= '<meta name="og:title" content="' . htmlentities($work->message->title, ENT_COMPAT | ENT_HTML5, 'UTF-8') . '" />' . "\n";
+		$og .= '<meta name="og:title" content="' . addcslashes($work->message->title, "'") . '" />' . "\n";
 	}
 	if (isset($work->message->abstract))
 	{
-		$og .= '<meta name="og:description" content="' . htmlentities($work->message->abstract, ENT_COMPAT | ENT_HTML5, 'UTF-8') . '" />' . "\n";
+		//$og .= '<meta name="og:description" content="' . htmlentities($work->message->abstract, ENT_COMPAT | ENT_HTML5, 'UTF-8') . '" />' . "\n";
+		$og .= '<meta name="og:description" content="' . addcslashes($work->message->abstract, "'") . '" />' . "\n";
 	}
 	
 	if (isset($work->message->{'page-images'}))
@@ -224,7 +226,6 @@ function opengraph_tags ($work)
 	
 	return $og;
 }
-
 
 //----------------------------------------------------------------------------------------
 function display_record($id, $full = false)
