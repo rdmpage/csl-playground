@@ -118,10 +118,8 @@
 			$.getJSON('api.php?id=' + id + '&format=geojson&callback=?',
 				function(data){
           if (data.features.length > 0) {
-          	$('#map').show();
 			create_map();
             add_data(data);
-           
           } else {
            $('#map').hide();
           }
