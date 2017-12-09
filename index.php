@@ -190,6 +190,43 @@ function display_record_path_issn ()
 }
 
 //----------------------------------------------------------------------------------------
+function opengraph_tags ($work)
+{
+	global $config;
+	
+	$og = '';
+	
+	$og .= '<meta name="og:url" content="' . $config['web_server'] . $config['web_root'] . '/work/' . $work->_id . '" />' . "\n";
+	
+	if (isset($work->message->title))
+	{
+		$og .= '<meta name="og:title" content="' . htmlentities($work->message->title, ENT_COMPAT | ENT_HTML5, 'UTF-8') . '" />' . "\n";
+	}
+	if (isset($work->message->abstract))
+	{
+		$og .= '<meta name="og:description" content="' . htmlentities($work->message->abstract, ENT_COMPAT | ENT_HTML5, 'UTF-8') . '" />' . "\n";
+	}
+	
+	if (isset($work->message->{'page-images'}))
+	{
+		$count = 0;
+		foreach ($work->message->{'page-images'} as $k => $v)
+		{
+			$og .= '<meta name="og:url" content="' . $v . '" />' . "\n";
+		
+			$count++;
+			if ($count > 0)
+			{
+				break;
+			}
+		}		
+	}
+	
+	return $og;
+}
+
+
+//----------------------------------------------------------------------------------------
 function display_record($id, $full = false)
 {
 	global $config;
@@ -240,9 +277,9 @@ function display_record($id, $full = false)
 				
 			</script>';		
 	
+	$meta = opengraph_tags($work);
 	
-	
-	display_html_start($title, '', $script);
+	display_html_start($title, $meta, $script);
 	display_navbar();
 	
 	display_record_path_container ($work);
