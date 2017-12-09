@@ -314,7 +314,7 @@ function display_record($id, $full = false)
 			Map
         	</div>';
         }
-		   
+	}
         
     
     echo '    </div>
