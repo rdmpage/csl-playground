@@ -307,7 +307,7 @@ foreach ($urls as $url)
 		if (preg_match('/dx.doi.org\/(?<doi>.*)\b/', $p->plaintext, $m))
 		{
 			$citation->DOI = $m['doi'];
-			$citation->{'alternative-id'} = 'DOI:' . $citation->DOI;
+			$citation->{'alternative-id'}[] = 'DOI:' . $citation->DOI;
 		}		
 		
 		

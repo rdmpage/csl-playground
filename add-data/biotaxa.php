@@ -676,7 +676,7 @@ foreach ($urls as $url)
 		if (preg_match('/dx.doi.org\/(?<doi>.*)\b/', $p->plaintext, $m))
 		{
 			$citation->DOI = strtolower($m['doi']);
-			$citation->{'alternative-id'} = 'DOI:' . $citation->DOI;
+			$citation->{'alternative-id'}[] = 'DOI:' . $citation->DOI;
 			//print_r($citation);
 			//echo join("\t", reference_to_tsv($citation)) . "\n";
 			$citation->id = $reference->_id . '/ref-' . $count++;
