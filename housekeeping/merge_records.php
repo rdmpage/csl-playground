@@ -44,7 +44,7 @@ function merge_records ($records, $check = false)
 	global $couch;
 	global $parents;
 	
-	print_r($records);
+	//print_r($records);
 
 	// If we have more than one reference with the same hash, compare and cluster
 	$n = count($records);
@@ -64,28 +64,63 @@ function merge_records ($records, $check = false)
 			
 				if ($check)
 				{
-			
-					$v1 = $response_obj->rows[$i]->value;
-					$v2 = $response_obj->rows[$j]->value;
-			
-					echo $v1 . "\n";
-					echo $v2 . "\n";
+					$v1 = '';
+					$v2 = '';
 					
-					$v1 = finger_print($v1);
-					$v2 = finger_print($v2);
-			
-					$lcs = new LongestCommonSequence($v1, $v2);
-					$d = $lcs->score();
-			
-					// echo $d;
-			
-					$score = min($d / strlen($v1), $d / strlen($v2));
-			
-					if ($score > 0.80)
+					/*
+					if ($v1 == '')
 					{
-						echo "MATCH\n";
+						$v1 = $records[$i]->message->unstructured;
+					}
+
+					if ($v2 == '')
+					{
+						$v2 = $records[$j]->message->unstructured;
+					}
+					*/
+					
+					if ($v1 == '')
+					{
+						if (isset($records[$i]->message->title))
+						{
+							$v1 = $records[$i]->message->title;
+						}
+					}
+					
+					if ($v2 == '')
+					{
+						if (isset($records[$j]->message->title))
+						{
+							$v2 = $records[$j]->message->title;
+						}
+					}
+					
 				
-						union($i, $j);
+					if (($v1 != '') && ($v2 != ''))
+					{
+						$v1 = strip_tags($v1);
+						$v2 = strip_tags($v2);
+					
+						$v1 = finger_print($v1);
+						$v2 = finger_print($v2);
+						
+						echo "$i=$v1\n";
+						echo "$j=$v2\n";
+						
+			
+						$lcs = new LongestCommonSequence($v1, $v2);
+						$d = $lcs->score();
+			
+						// echo $d;
+			
+						$score = min($d / strlen($v1), $d / strlen($v2));
+			
+						if ($score > 0.80)
+						{
+							echo "MATCH\n";
+				
+							union($i, $j);
+						}
 					}
 				}
 				else
