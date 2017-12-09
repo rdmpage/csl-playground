@@ -9,8 +9,17 @@ RewriteBase /
 
 Options -Multiviews
 
+
 #-----------------------------------------------------------------------------------------
 # Work
+
+# API
+RewriteRule ^work/(.*).geojson$  api.php?id=$1&format=geojson [NC,L]
+RewriteRule ^work/(.*).json$  api.php?id=$1 [NC,L]
+RewriteRule ^work/(.*).txt$  api.php?id=$1&format=txt [NC,L]
+RewriteRule ^work/(.*).xml$  api.php?id=$1&format=xml [NC,L]
+
+# Web
 RewriteRule ^work/(.*)/full$  index.php?id=$1&full [NC,L]
 RewriteRule ^work/(.*)$  index.php?id=$1 [NC,L]
 

@@ -55,6 +55,12 @@ function api_output($obj, $format='json', $callback='')
 			header("Content-type: text/xml");
 			echo $obj->xml;
 			break;
+			
+		case 'txt':
+		case 'text':
+			header("Content-type: text/plain; charset=utf-8");
+			echo $obj->txt;
+			break;		
 	
 		case 'json':
 		default:

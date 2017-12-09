@@ -53,6 +53,26 @@ function display_one ($id, $format= '', $callback = '')
 			}
 			api_output($obj, 'json', $callback);
 			break;
+			
+		case 'txt':
+			$resp = $couch->send("GET", "/" . $config['couchdb_options']['database'] . "/" . urlencode($couch_id));
+			$work = json_decode($resp);
+			if (isset($work->error))
+			{
+				$obj->status = 404;
+			}
+			else
+			{
+				$obj->txt = '';
+				
+				if (isset($work->message->{'page-text'}))
+				{
+					$obj->txt = join("", $work->message->{'page-text'});
+				}				
+				$obj->status = 200;			
+			}
+			api_output($obj, 'txt', $callback);
+			break;			
 	
 		case 'xml':
 			$resp = $couch->send("GET", "/" . $config['couchdb_options']['database'] . "/_design/export/_view/jats-xml?key=" . urlencode('"' . $couch_id . '"'));
