@@ -190,6 +190,10 @@
                 <xsl:text>, </xsl:text>
             </xsl:if>
         -->
+			<xsl:if test="position() != 1">
+                <xsl:text> </xsl:text>
+            </xsl:if>            
+        
         	<button type="button" class="btn btn-default btn-sm">
             <xsl:apply-templates select="name" />
             <xsl:apply-templates select="contrib-id" />
