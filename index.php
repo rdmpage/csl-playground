@@ -967,7 +967,18 @@ function display_container_works_year($title, $year)
 			}
 			if (isset($work->message->URL)) 
 			{
-				echo '<div>' . '<b style="color:blue;">' . $work->message->URL . '</b>' . '</div>';
+				if (is_array($work->message->URL))
+				{
+					foreach ($work->message->URL as $url)
+					{
+						echo '<div>' . '<b style="color:blue;">' . $url . '</b>' . '</div>';			
+					}
+				
+				}
+				else
+				{			
+					echo '<div>' . '<b style="color:blue;">' . $work->message->URL . '</b>' . '</div>';
+				}
 			}
 	
 			echo '</div>';
