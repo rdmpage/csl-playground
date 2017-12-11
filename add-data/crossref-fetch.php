@@ -103,6 +103,10 @@ $dois=array('10.4039/n04-096');
 
 $dois=array('10.3161/00034541ANZ2016.66.3.010');
 
+// Verrucostoma, a new genus in the Bionectriaceae from the Bonin Islands, Japan
+// Taylor & Francis with author affiliations and references cited
+$dois=array('10.3852/09-137');
+
 foreach ($dois as $doi)
 {
 	$doi = strtolower($doi);
