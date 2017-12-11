@@ -265,7 +265,7 @@
     
     <!-- one reference -->
     <xsl:template match="ref">
-        <li>
+        <li style="padding:4px;">
             <xsl:apply-templates select="mixed-citation" />
         </li>
     </xsl:template>
