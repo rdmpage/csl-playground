@@ -361,7 +361,7 @@ function display_record($id, $full = false)
         <div class="row affix" id="meta"> 
           <div>
             <h4>
-              Files
+              Formats
             </h4>
             <div id="files" lass="btn-group" role="group">';
             
@@ -391,6 +391,21 @@ function display_record($id, $full = false)
             
     echo '
             </div>
+          </div>
+          
+          <!-- Source of data -->
+          <div>
+            <h4>
+              Source
+            </h4>
+            <div id="source">';
+            
+     if (isset($work->message->source))
+     {
+     	echo $work->message->source;
+     }
+            
+     echo '</div>        
           </div>
           
           <div>
