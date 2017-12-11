@@ -1107,10 +1107,23 @@ function display_search($q, $bookmark = '')
 		{
 			echo '<div>' . '<b style="color:blue;">' . $row->doc->message->DOI . '</b>' . '</div>';
 		}
+		
 		if (isset($row->doc->message->URL)) 
 		{
-			echo '<div>' . '<b style="color:blue;">' . $row->doc->message->URL . '</b>' . '</div>';
+			if (is_array($row->doc->message->URL))
+			{
+				foreach ($row->doc->message->URL as $url)
+				{
+					echo '<div>' . '<b style="color:blue;">' . $url . '</b>' . '</div>';			
+				}
+			
+			}
+			else
+			{			
+				echo '<div>' . '<b style="color:blue;">' . $row->doc->message->URL . '</b>' . '</div>';
+			}
 		}
+		
 		
 		$openurl = create_openurl($row->doc);
 		echo '<div>' . '<b style="color:blue;"><a href="http://direct.biostor.org/openurl?' . $openurl . '">OpenURL</a></b>' . '</div>';
