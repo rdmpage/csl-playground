@@ -256,10 +256,12 @@ foreach ($urls as $url)
 										$author->given = preg_replace('/([A-Z])\.([A-Z])/u', "$1 $2", $author->given);
 										$author->given = preg_replace('/\.$/u', "", $author->given);
 									}
-						
+
 									if (!isset($author->family) || !isset($author->given))
 									{
-										$author->literal = $contributor->{'credit-name'}->value;
+										unset($author->family);
+										unset($author->given);
+										$author->literal = $part;
 									}
 	
 									$citation->author[] = $author;

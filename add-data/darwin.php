@@ -254,7 +254,9 @@ foreach ($urls as $url)
 					
 								if (!isset($author->family) || !isset($author->given))
 								{
-									$author->literal = $contributor->{'credit-name'}->value;
+									unset($author->family);
+									unset($author->given);
+									$author->literal = $part;
 								}
 
 								$citation->author[] = $author;
