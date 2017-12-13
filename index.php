@@ -276,11 +276,19 @@ function display_record($id, $full = false)
 					});
 				}
 				
-			</script>';		
+			</script>';	
+			
+	$script .= '<script>
+	/* http://stackoverflow.com/questions/6762564/setting-div-width-according-to-the-screen-size-of-user */
+	$(window).resize(function() { 
+		var windowHeight = $(window).height() -  $(\'#viewer\').offset().top;
+		$(\'#viewer\').css({\'height\': windowHeight });	
+	});
+	</script>';				
 	
 	$meta = opengraph_tags($work);
 	
-	display_html_start($title, $meta, $script);
+	display_html_start($title, $meta, $script, "$(window).resize()");
 	display_navbar();
 	
 	display_record_path_container ($work);
@@ -529,7 +537,7 @@ function display_record($id, $full = false)
 }
 
 //----------------------------------------------------------------------------------------
-function display_html_start($title = '', $meta = '', $script = '')
+function display_html_start($title = '', $meta = '', $script = '', $onload = '')
 {
 	global $config;
 	
@@ -575,7 +583,7 @@ function display_html_start($title = '', $meta = '', $script = '')
  			padding-top:70px;
  			padding-left:20px;
  			padding-right:20px;
- 			padding-bottom:20px;		
+ 			padding-bottom:20px; 
 		}
 		
 		h1 {
@@ -607,9 +615,16 @@ function display_html_start($title = '', $meta = '', $script = '')
 		
 		
 	</style>	
-	</head>
-<body>';
-
+	</head>';
+	
+	if ($onload == '')
+	{
+		echo '<body>';
+	}
+	else
+	{
+		echo '<body onload="' . $onload . '">';
+	}
 }
 
 //----------------------------------------------------------------------------------------

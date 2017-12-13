@@ -24,7 +24,7 @@
 						</xsl:text><a><xsl:attribute name="href"><xsl:text>https://archive.org/download/biostor-</xsl:text><xsl:value-of select="//article-id[@pub-id-type=&amp;quot;biostor&amp;quot;]"/><xsl:text>/biostor-</xsl:text><xsl:value-of select="//article-id[@pub-id-type=&amp;quot;biostor&amp;quot;]"/><xsl:text>.pdf</xsl:text></xsl:attribute><xsl:text>complete article</xsl:text></a><xsl:text>.</xsl:text><xsl:if test="//back"><xsl:text>Links are also available for </xsl:text><a href="#reference-sec">Selected References</a><xsl:text>.</xsl:text></xsl:if></p>
 					-->
 				
-                <div style="background-color:rgb(192,192,192);height:800px;overflow-y:auto;text-align:center;">
+                <div id="viewer" style="background-color:rgb(192,192,192);height:800px;overflow-y:auto;text-align:center;">
                     <xsl:apply-templates select="//supplementary-material/graphic" />
                 </div>
             </xsl:if>
