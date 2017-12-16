@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "JATS-archivearticle1.dtd">
+<article article-type="research-article" dtd-version="1.1d1" xml:lang="en" 
+    xmlns:mml="http://www.w3.org/1998/Math/MathML" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">TRCA</journal-id>
+            <journal-id journal-id-type="sage">TRC</journal-id>
+            <journal-title-group>
+                <journal-title>Tropical Conservation Science</journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">1940-0829</issn>
+            <issn pub-type="epub">1940-0829</issn>
+            <publisher>
+                <publisher-name>SAGE Publications</publisher-name>
+                <publisher-loc>Sage CA: Los Angeles, CA</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta 
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <article-id pub-id-type="doi">10.1177/1940082917739774</article-id>
+            <article-id pub-id-type="publisher-id">10.1177_1940082917739774</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Short Communication</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>A 130-Year-Old Specimen Brought Back to Life: A Lost Species of Bee-Mimicking Clearwing Moth, 
+                    <italic>Heterosphecia tawonoides</italic> (Lepidoptera: Sesiidae: Osminiini), Rediscovered in Peninsular Malaysia’s Primary Rainforest
+                </article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                    <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5525-0566</contrib-id>
+                    <string-name>
+                        <given-names>Marta A.</given-names>
+                        <surname>Skowron Volponi</surname>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff1-1940082917739774">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="corresp" rid="corresp1-1940082917739774"/>
+                </contrib>
+                <x>, </x>
+                <contrib contrib-type="author">
+                    <string-name>
+                        <given-names>Paolo</given-names>
+                        <surname>Volponi</surname>
+                    </string-name>
+                    <xref ref-type="aff" rid="aff2-1940082917739774">
+                        <sup>2</sup>
+                    </xref>
+                </contrib>
+            </contrib-group>
+            <aff id="aff1-1940082917739774">
+                <label>
+                    <sup>1</sup>
+                </label>Department of Molecular Biology, Faculty of Biology, 
+                <institution-wrap>
+                    <institution-id institution-id-type="Ringgold">215605</institution-id>
+                    <institution content-type="university">University of Gdansk</institution>
+                </institution-wrap>, Poland
+            </aff>
+            <aff id="aff2-1940082917739774">
+                <label>
+                    <sup>2</sup>
+                </label>ClearWing Foundation for Biodiversity, Warsaw, Poland
+            </aff>
+            <author-notes>
+                <corresp id="corresp1-1940082917739774">Marta A. Skowron Volponi, Department of Molecular Biology, Faculty of Biology, University of Gdansk, Wita Stwosza, 59, 80-308 Gdansk, Poland. Email: 
+                    <email>marta.a.skowron@gmail.com</email>
+                </corresp>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <month>11</month>
+                <year>2017</year>
+                <string-date>January-December 2017</string-date>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2017</year>
+                <string-date>January-December 2017</string-date>
+            </pub-date>
+            <volume>10</volume>
+            <elocation-id>1940082917739774</elocation-id>
+            <history>
+                <date date-type="received">
+                    <day>16</day>
+                    <month>8</month>
+                    <year>2017</year>
+                </date>
+                <date date-type="accepted">
+                    <day>9</day>
+                    <month>10</month>
+                    <year>2017</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>© The Author(s) 2017</copyright-statement>
+                <copyright-year>2017</copyright-year>
+                <copyright-holder content-type="society">SAGE Publications Inc, unless otherwise noted. Manuscript content on this site is licensed under Creative Commons Licenses.</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/" xlink:type="simple">
+                    <license-p>This article is distributed under the terms of the Creative Commons Attribution-NonCommercial 4.0 License (
+                        <ext-link ext-link-type="uri" xlink:href="http://www.creativecommons.org/licenses/by-nc/4.0/">http://www.creativecommons.org/licenses/by-nc/4.0/</ext-link>) which permits non-commercial use, reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE and Open Access pages (
+                        <ext-link ext-link-type="uri" xlink:href="https://us.sagepub.com/en-us/nam/open-access-at-sage">https://us.sagepub.com/en-us/nam/open-access-at-sage</ext-link>).
+                    </license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="1940082917739774.pdf"/>
+            <abstract>
+                <p>
+                    <italic>Heterosphecia tawonoides</italic> Kallies, a “lost” species of clearwing moth known only from a single specimen from 1887 (the holotype, which is missing important morphological features), was observed and filmed for the first time in its natural habitat. Our studies have shown that it is associated with Malaysian primary lowland dipterocarp forests, ecosystems which are vanishing rapidly due to extensive human activity. This is the first record of 
+                    <italic>H. tawonoides</italic> in Malaysia. Behavioral aspects, such as mud-puddling among bees and acoustic mimicry, are discussed and shown in a video. A morphological redescription, including features visible on live individuals only, is provided. The DNA barcode sequence is given, with comparison to closely related species.
+                </p>
+            </abstract>
+            <kwd-group>
+                <kwd>sesiidae</kwd>
+                <x>, </x>
+                <kwd>behavior</kwd>
+                <x>, </x>
+                <kwd>
+                    <italic>Heterosphecia tawonoides</italic>
+                </kwd>
+                <x>, </x>
+                <kwd>mud-puddling</kwd>
+                <x>, </x>
+                <kwd>Malaysia</kwd>
+                <x>, </x>
+                <kwd>mimicry</kwd>
+                <x>, </x>
+                <kwd>primary rainforest</kwd>
+            </kwd-group>
+            <self-uri xlink:href="http://journals.sagepub.com/doi/abs/10.1177/1940082917739774"/>
+        </article-meta>
+    </front>
+    <body>
+        <sec id="sec1-1940082917739774" sec-type="intro">
+            <title>Introduction</title>
+            <p>The rainforests of Southeast Asia are one of the most biodiverse areas on earth. Because of climate change and a high deforestation rate, among others, they are also one of the most vulnerable. Over the last 2 million years, during glacial periods, sea levels in Sundaland were lower than at present. Sumatra, Java, and Borneo were linked to Peninsular Malaysia and the Asian mainland by the Sunda Shelf, enabling species migration, especially along rivers (
+                <xref ref-type="bibr" rid="bibr5-1940082917739774">Corlett &amp; Primack, 2011</xref>; 
+                <xref ref-type="bibr" rid="bibr17-1940082917739774">Sathiamurthy &amp; Voris, 2006</xref>). That is why today flora and fauna of these lands are similar. The genus 
+                <italic>Heterosphecia</italic> (
+                <xref ref-type="bibr" rid="bibr14-1940082917739774">Le Cerf, 1916</xref>), which includes eight species, occurs from South India to Sumatra and Borneo; however, it is known only from several records. Thus, their conservation status is currently unknown. 
+                <italic>Heterosphecia tawonoides</italic> was described in 2003 by Kallies based on a unique specimen collected in Sumatra (Indonesia) in 1887 (exact location unknown) and kept in the Natural History Museum in Vienna. Thus, it is a “lost species,” such as those defined by Global Wildlife Conservation, an organization which along with more than 100 IUCN Species Survival Commission’s Specialist Groups established a project entitled “The Search for Lost Species” (
+                <ext-link ext-link-type="uri" xlink:href="https://lostspecies.org/">https://lostspecies.org/</ext-link>) aiming to rediscover and protect species which have not been seen for many years. 
+                <italic>H. tawonoides</italic> (
+                <xref ref-type="fig" rid="fig1-1940082917739774">Figures 1</xref>, 
+                <xref ref-type="fig" rid="fig3-1940082917739774">3</xref> and 5(e), 5(f)) was observed by the authors in 2013, 2016, and 2017 in the rainforests of Peninsular Malaysia. In May 2016, four individuals of 
+                <italic>H. tawonoides</italic> were collected and analyzed morphologically and genetically. Genitalia morphology confirmed that the collected specimens are indeed 
+                <italic>H. tawonoides</italic>. All of the observed individuals were seen mud-puddling on a sandy/pebble river bank, a behavior recorded only recently for the family Sesiidae (
+                <xref ref-type="bibr" rid="bibr9-1940082917739774">Gorbunov, 2015</xref>; 
+                <xref ref-type="bibr" rid="bibr18-1940082917739774">Skowron, Munisamy, Hamid, &amp; Węgrzyn, 2015</xref>; 
+                <xref ref-type="bibr" rid="bibr19-1940082917739774">Skowron Volponi &amp; Volponi, 2017</xref>; 
+                <xref ref-type="bibr" rid="bibr20-1940082917739774">Szabolcs &amp; Pühringer, 2016</xref>).
+
+                <fig id="fig1-1940082917739774" position="float">
+                    <label>Figure 1.</label>
+                    <caption>
+                        <p>
+                            <italic>Heterosphecia tawonoides</italic> puddling on a dry leaf washed out by the river.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="10.1177_1940082917739774-fig1.tif"/>
+                </fig>
+                <fig id="fig2-1940082917739774" position="float">
+                    <label>Figure 2.</label>
+                    <caption>
+                        <p>Map of Peninsular Malaysia. Pahang state is marked in green.</p>
+                    </caption>
+                    <graphic xlink:href="10.1177_1940082917739774-fig2.tif"/>
+                </fig>
+                <fig id="fig3-1940082917739774" position="float">
+                    <label>Figure 3.</label>
+                    <caption>
+                        <p>In sunlight, 
+                            <italic>Heterosphecia tawonoides</italic> has a strong blue sheen on wings, abdomen, and tarsomeres.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="10.1177_1940082917739774-fig3.tif"/>
+                </fig>
+            </p>
+            <p>The original description of 
+                <italic>H. tawonoides</italic> was made based on a single, old specimen, which is missing important morphological features. The genus 
+                <italic>Heterosphecia</italic> is characterized by tufts of hair-like scales on the hind legs. The holotype lacks the hind legs and currently also the abdomen (utilized for dissection by 
+                <xref ref-type="bibr" rid="bibr13-1940082917739774">Kallies, 2003</xref>), and its body coloration has faded. Moreover, the natural habitat and behavior of this species remained unknown. Recent observations of 
+                <italic>H. tawonoides</italic> in its natural habitat, described herein, have allowed to notice not only behavioral aspects, but also important morphological details, including those visible only on live individuals.
+            </p>
+        </sec>
+        <sec id="sec2-1940082917739774" sec-type="methods">
+            <title>Methods</title>
+            <p>Temperature and humidity measurements in the field were made using a TFA Dostmann electronic thermo hygrometer in the shadow each time that 
+                <italic>H. tawonoides</italic> was observed. Photographic and video documentation was made with Olympus TG-3, Sony DSC-RX10, and Sony PXW-FS5 digital cameras. Photographic and video documentation, as well as behavioral observations were made in the natural habitat of 
+                <italic>H. tawonoides</italic>, in three locations (approximately 20 km and 50 km away from each other) in lowland dipterocarp forests of Pahang State, Malaysia (
+                <xref ref-type="fig" rid="fig2-1940082917739774">Figure 2</xref>). Four individuals were collected in Kuala Tahan, Malaysia, and pinned for morphological analyses. Male genitalia were dissected and prepared as follows: (1) maceration of the abdomen in boiling 10% KOH, (2) dissection in 10% ethanol, (3) dehydration in 30%, 60%, and 100% ethanol, respectively, and (4) mounting in Euparal. Morphological details were studied with a Leica M80 stereomicroscope and photographed using a Leica M205A. Morphology of male genitalia was compared with Figure 7 in the study of 
+                <xref ref-type="bibr" rid="bibr13-1940082917739774">Kallies (2003)</xref>. DNA barcoding (on total DNA isolated from a single leg) was conducted at the Canadian Centre for DNA Barcoding, University of Ontario, Guelph, Canada. Tissue lysis and DNA purification was carried out using a silica-based method which includes binding DNA to a glass fiber membrane in the presence of chaotropic salts (
+                <xref ref-type="bibr" rid="bibr12-1940082917739774">Ivanova, DeWaard, &amp; Hebert, 2006</xref>). Cytochrome c oxidase subunit I gene (COI) was PCR amplified with the use of primers described by 
+                <xref ref-type="bibr" rid="bibr10-1940082917739774">Hebert, Penton, Burns, Janzen, and Hallwachs (2004)</xref>. DNA was sequenced using an ABI Prism 310 automated sequencer with ABI Prism BigDye Terminator Cycle Sequencing Ready Reaction Kit (Perkin Elmer Applied Biosystems, Foster City, CA, USA). Barcode sequences were analyzed through BioEdit, the Basic Local Alignment Search Tool (BLAST), and Barcode of Life Data System (
+                <xref ref-type="bibr" rid="bibr16-1940082917739774">Ratnasingham &amp; Hebert, 2007</xref>) Identification tool.
+
+            </p>
+            <sec id="sec3-1940082917739774">
+                <title>Specimens Examined</title>
+                <p>1 ♂: Peninsular Malaysia: Pahang, 01/05/2016, coll. M. A. Skowron Volponi (British Museum of Natural History, London—BMNH), 1 ♂: Peninsular Malaysia: Pahang, 02/05/2016, coll. M. A. Skowron Volponi (private collection), 2 ♂: Peninsular Malaysia: Pahang, 06/05/2016, coll. M. A. Skowron Volponi (private collection).</p>
+            </sec>
+        </sec>
+        <sec id="sec4-1940082917739774" sec-type="results">
+            <title>Results</title>
+            <sec id="sec5-1940082917739774">
+                <title>Redescription</title>
+                <p>Alar expanse: 20.0 to 22.5 mm; body length: 9.7 to 10.0 mm; antenna: 5.0 to 6.0 mm.</p>
+                <p>
+                    <italic>Head:</italic> Antenna clavate, dorsally black, ventrally yellow, tuft of black setae at tip of club; frons white; vertex covered with black and in the middle a few white elongate scales; complex eyes and ocelli brown; proboscis orange, well-developed, functional; labial palpus long and upturned, with white elongate scales ventrally and apically, black basally; pericephalic hairs white with a few black hairs dorsally.
+                </p>
+                <p>
+                    <italic>Thorax:</italic> Parapatagia black with blue sheen, patagia white; mesothorax dorsally covered with white hair-like erected scales on a background of smooth black scales; smooth black scales with blue sheen at wing base and a small tuft of elongated black and white hair-like scales; metathorax black with blue sheen; lateral side of thorax white.
+                </p>
+                <p>
+                    <italic>Legs:</italic> Fore femur smooth-scaled exteriorly and with elongated scales interiorly, mid and hind femur smooth scaled; tufts of hair-like scales present on all tibia but are longest on hind legs; fore tibia and tarsus with elongate scales gradually shortening toward fifth tarsomere; mid and hind tuft cover entire tibia and two basal segments of tarsus and are narrowed in the middle; fore coxa white dorsally and apically and black ventrally; fore, mid, and hind femur white dorsally and black ventrally; fore tibia black with a creamy white patch subbasally; tarsomeres black with blue sheen, mid tibia with alternate bands of black elongate scales with a blue sheen and white tips and white elongate scales; spurs and three to five tarsomeres black with blue sheen; hind tibia black with blue sheen basally, tuft of hair-like scales creamy white basally, then black with blue sheen and white tips, creamy white in place of narrowing and again black with blue sheen and white tips until the second tarsomere, three to five tarsomeres and spurs black with blue sheen, the strongly elongated creamy white hair-like scales of hind tibia extending interiorly over folded wings and abdomen in natural resting position (
+                    <xref ref-type="fig" rid="fig3-1940082917739774">Figure 3</xref>). Hind tibia and tarsus only slightly longer than abdomen.
+                </p>
+                <p>
+                    <italic>Abdomen:</italic> Black with strong blue sheen, smooth-scaled with several short white hair-like scales, bigger and strongly light-reflecting blue scales on margins of each tergite form distinct bands in sunlight (Supplementary video TC: 00:59–01:04, 01:45–01:47), abdomen creamy white laterally, sternites 1 to 7 creamy white with two rectangular black patches; Segment 8 black; anal tuft very small, black with blue sheen.
+                </p>
+                <p>
+                    <italic>Forewing:</italic> Entire forewing with strong blue sheen (both transparent areas and those covered with bluish black scales (
+                    <xref ref-type="fig" rid="fig3-1940082917739774">Figure 3</xref>, Supplementary video TC: 01:45–01:47), pattern as described by 
+                    <xref ref-type="bibr" rid="bibr13-1940082917739774">Kallies (2003)</xref>, cilia black with metallic sheen.
+                </p>
+                <p>
+                    <italic>Hindwing:</italic> Transparent, covered with semi-hyaline scales at base in cell between veins CuP and 1A and cell below 1A, veins black with blue sheen; cilia black with metallic sheen.
+                </p>
+                <p>
+                    <italic>Male genitalia</italic> (
+                    <xref ref-type="fig" rid="fig4-1940082917739774">Figure 4</xref>): Very similar to those of the holotype but with slight differences: tip of valva shorter and broader, base of saccus flat, tegumen slightly thinner (compare 
+                    <xref ref-type="fig" rid="fig4-1940082917739774">Figure 4</xref> with Figure 7 in the study by 
+                    <xref ref-type="bibr" rid="bibr13-1940082917739774">Kallies, 2003</xref>).
+
+                    <fig id="fig4-1940082917739774" position="float">
+                        <label>Figure 4.</label>
+                        <caption>
+                            <p>Male genitalia show slight morphological differences from the holotype.</p>
+                        </caption>
+                        <graphic xlink:href="10.1177_1940082917739774-fig4.tif"/>
+                    </fig>
+                </p>
+            </sec>
+            <sec id="sec6-1940082917739774">
+                <title>Novel Morphological Details Observed on Live Individuals</title>
+                <p>Strong blue sheen on wings (both transparent and scaled areas, Supplementary video TC: 01:44–01:49, 
+                    <xref ref-type="fig" rid="fig3-1940082917739774">Figure 3</xref>); 
+                    <italic>Legs and abdomen:</italic> Bigger and strongly light-reflecting, metallic blue scales on margins of each tergite form distinct bands in sunlight (Supplementary video TC: 01:00–01:05, 02:50–02:58). Characteristic tufts of hair-like scales present on all tibia but are longest on hind legs, with alternate shiny blue and creamy white coloration (
+                    <xref ref-type="fig" rid="fig1-1940082917739774">Figure 1</xref>). Strongly elongated, creamy white hair-like scales of hind tibia extend interiorly over folded wings and abdomen in natural resting position.
+                </p>
+                <p>
+                    <italic>H. tawonoides</italic> is most similar to 
+                    <italic>Heterosphecia robinsoni</italic>, 
+                    <italic>Heterosphecia indica</italic>, and 
+                    <italic>Heterosphecia melissoides</italic> (
+                    <xref ref-type="fig" rid="fig5-1940082917739774">Figure 5</xref>) but it can be distinguished by the strikingly blue and white coloration of the body. Unfortunately, coloration of pinned specimens fades easily (compare 
+                    <xref ref-type="fig" rid="fig5-1940082917739774">Figure 5(e)</xref> with 
+                    <xref ref-type="fig" rid="fig5-1940082917739774">Figure 5(f)</xref> herein) and distinguishing 
+                    <italic>Heterosphecia</italic> species from museum collections without detailed morphological analyses may cause difficulties. Precise differential diagnosis was published by 
+                    <xref ref-type="bibr" rid="bibr13-1940082917739774">Kallies (2003)</xref> and 
+                    <xref ref-type="bibr" rid="bibr1-1940082917739774">Arita and Gorbunov (1995</xref>, 
+                    <xref ref-type="bibr" rid="bibr2-1940082917739774">2000</xref>).
+
+                    <fig id="fig5-1940082917739774" position="float">
+                        <label>Figure 5.</label>
+                        <caption>
+                            <p>Representatives of the 
+                                <italic>Heterosphecia</italic> genus: (a) 
+                                <italic>H. robinsoni</italic> (♂ holotype, BMNH), (b) 
+                                <italic>H. indica</italic> (♂ holotype, BMNH), (c) 
+                                <italic>H. melissoides</italic> (♀ holotype, BMNH), (d) 
+                                <italic>H. hyaloptera</italic> (♀ holotype, BMNH), (e) pinned ♂ 
+                                <italic>H. tawonoides</italic>, and (f) 
+                                <italic>H. tawonoides</italic> alive in its habitat.
+                            </p>
+                        </caption>
+                        <graphic xlink:href="10.1177_1940082917739774-fig5.tif"/>
+                    </fig>
+                </p>
+            </sec>
+            <sec id="sec7-1940082917739774">
+                <title>Behavior</title>
+                <p>
+                    <italic>H. tawonoides</italic> was observed mud-puddling on a river bank in a lowland dipterocarp rainforest. This behavior is generally associated with male Lepidoptera (
+                    <xref ref-type="bibr" rid="bibr3-1940082917739774">Beck, Muhlenberg, &amp; Fiedler, 1999</xref>). The four collected specimens were indeed males, and thus it is highly probable that so were the remaining observed individuals. 
+                    <italic>H. tawonoides</italic> flies in full sunlight or half-shade between 10:30 and 16:30, in a temperature 29–35℃ and humidity 51%–88%. One individual was observed in July 2013, nine from the end of April to mid-May in 2016, and two in March 2017. 
+                    <italic>H. tawonoides</italic> flies individually; only once two individuals were seen in the same area but far from each other. The flight is rapid, although the sesiid is easily spotted in sunlight because of its shiny blue coloration. When puddling, 
+                    <italic>H. tawonoides</italic> walks around and flies from one rock to another, evidently searching for the best spot with its proboscis, by licking the rock/moist sand. It often puddled among many different species of bees, including the much bigger 
+                    <italic>Apis dorsata</italic> Fabricius (Supplementary video TC: 01:20–01:49). It is worth noting that 
+                    <italic>H. tawonoides</italic> was the only Lepidopteran which mud-puddled among bees; other butterflies gathered in a distance from the hymenopterans. Even when startled, the clearwing moth often returned to the same spot in a few seconds, perhaps because it had found a good source of nutrients. It was also seen puddling on a dead leaf washed out by the river, on human skin, and once on a patch of sand smelling of rotten fish, which could mean it is searching not only for salt but also for proteins, a habit previously recorded for Nymphalidae, Hesperiidae, and Lycaenidae (
+                    <xref ref-type="bibr" rid="bibr3-1940082917739774">Beck et al., 1999</xref>).
+                </p>
+                <p>When startled, 
+                    <italic>H. tawonoides</italic> pushes itself away with its legs rapidly and unfolds its wings while already in the air (Supplementary video TC: 02:16–02:29). However, when taking off calmly, it will unfold its wings when still on the ground and push itself away from the ground (Supplementary video TC: 02:30–02:57). In flight, it keeps its legs folded against its abdomen. Moreover, 
+                    <italic>H. tawonoides</italic> makes a buzzing sound which has been recorded (Supplementary video TC: 03:00–03:13). This might be a case of acoustic mimicry of bees.
+                </p>
+            </sec>
+            <sec id="sec8-1940082917739774">
+                <title>Distribution and Habitat</title>
+                <p>One record from Sumatra, the holotype, (exact type location unknown) and several records from three locations, approximately 20 km and 50 km away from each other, in Peninsular Malaysia (
+                    <xref ref-type="fig" rid="fig6-1940082917739774">Figure 6</xref>). Found in Pahang State on pebble and sandy river banks exposed to sunlight in a primary lowland dipterocarp forest (
+                    <xref ref-type="fig" rid="fig6-1940082917739774">Figure 6</xref>).
+
+                    <fig id="fig6-1940082917739774" position="float">
+                        <label>Figure 6.</label>
+                        <caption>
+                            <p>The natural habitat of 
+                                <italic>Heterosphecia tawonoides</italic> in Peninsular Malaysia. Arrow indicates the sesiid mud-puddling on rocks.
+                            </p>
+                        </caption>
+                        <graphic xlink:href="10.1177_1940082917739774-fig6.tif"/>
+                    </fig>
+                </p>
+            </sec>
+            <sec id="sec9-1940082917739774">
+                <title>DNA Analysis</title>
+                <p>DNA barcoding, that is, sequencing of the mitochondrial COI, revealed a high sequence divergence from related species (
+                    <xref ref-type="table" rid="table1-1940082917739774">Table 1</xref>). However, it is worth mentioning that species of the genus 
+                    <italic>Heterosphecia</italic> most closely resembling 
+                    <italic>H. tawonoides</italic> morphologically (
+                    <italic>H. robinsoni</italic> Kallies, 
+                    <italic>H. indica</italic> Kallies, 
+                    <italic>H. melissoides</italic> Hampson) have not been sequenced. The COI sequence has been submitted to the Barcode of Life database (
+                    <xref ref-type="bibr" rid="bibr16-1940082917739774">Ratnasingham &amp; Hebert, 2007</xref>) and a BIN number has been assigned: BOLD:ACJ6387.
+
+                    <table-wrap id="table1-1940082917739774" position="float">
+                        <label>Table 1.</label>
+                        <caption>
+                            <p>COI Sequence Divergence of Species Closely Related to 
+                                <italic>Heterosphecia tawonoides</italic> With Barcode of Life BIN Numbers.
+                            </p>
+                        </caption>
+                        <alternatives>
+                            <graphic specific-use="table1-1940082917739774" xlink:href="10.1177_1940082917739774-table1.tif"/>
+                            <table frame="hsides">
+                                <thead align="left" valign="top">
+                                    <tr>
+                                        <th>Species</th>
+                                        <th>BIN number</th>
+                                        <th>Sequence divergence from 
+                                            <italic>Heterosphecia tawonoides</italic>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody align="left" valign="top">
+                                    <tr>
+                                        <td>
+                                            <italic>Heterosphecia bantanakai</italic>
+                                        </td>
+                                        <td>BOLD:ABU6338</td>
+                                        <td>11.70%</td>
+                                    </tr>
+                                    <tr>
+                                        <td/>
+                                        <td>BOLD:ACJ6445</td>
+                                        <td>11.85%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <italic>Heterosphecia pahangensis</italic>
+                                        </td>
+                                        <td>BOLD:ACV6125</td>
+                                        <td>12.31%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <italic>Pyrophleps ellawi</italic>
+                                        </td>
+                                        <td>BOLD:ACS2287</td>
+                                        <td>10.77%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <italic>Pyrophleps vitripennis</italic>
+                                        </td>
+                                        <td>BOLD:ABX4445</td>
+                                        <td>12.01%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <italic>Aschistophleps longipoda</italic>
+                                        </td>
+                                        <td>BOLD:ABW9181</td>
+                                        <td>12.46%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </alternatives>
+                        <table-wrap-foot>
+                            <fn id="table-fn1-1940082917739774">
+                                <p>COI = cytochrome c oxidase subunit I gene.</p>
+                            </fn>
+                        </table-wrap-foot>
+                    </table-wrap>
+                </p>
+            </sec>
+        </sec>
+        <sec id="sec10-1940082917739774" sec-type="discussion">
+            <title>Discussion</title>
+            <p>
+                <italic>H. tawonoides</italic> observed in the wild shows evident resemblance to bees. The bee and wasp mimicry of Sesiidae is widely known (
+                <xref ref-type="bibr" rid="bibr7-1940082917739774">Duckworth &amp; Eichlin, 1974</xref>). A species of 
+                <italic>Heterosphecia</italic> very similar to 
+                <italic>H. tawonoides</italic>, 
+                <italic>H. robinsoni</italic> (
+                <xref ref-type="bibr" rid="bibr13-1940082917739774">Kallies, 2003</xref>) was collected in Sabah, Borneo, in 1973 by K. M. Guichard, who suggested it is a 
+                <italic>Crocisa</italic> (= 
+                <italic>Thyreus</italic> Panzer) bee mimic. The close similarity of the two 
+                <italic>Heterosphecia</italic> species supports the idea that this might also be the case in 
+                <italic>H. tawonoides</italic>. It has been proven that mimics do not have to be perfect imitations of another species to gain protection (
+                <xref ref-type="bibr" rid="bibr6-1940082917739774">Dittrich, Gilbert, Green, McGregor, &amp; Grewcock, 1993</xref>), mimicry is often not a one-to-one species relationship (
+                <xref ref-type="bibr" rid="bibr8-1940082917739774">Edmunds, 1999</xref>). Imitating widespread features, for example, bright bands on the abdomen, is common in Sesiidae and might be more profitable than being a specialized mimic. In the field, the most eye-catching characteristic of 
+                <italic>H. tawonoides</italic> is its strikingly blue, shiny coloration (Supplementary video TC: 00:21–00:23; 00:59–01:11; 01:44–01:48, 02:35–02:44; 
+                <xref ref-type="fig" rid="fig3-1940082917739774">Figure 3</xref>) similar to that of many species of the genus 
+                <italic>Thyreus</italic> occurring in Malaysia (
+                <xref ref-type="bibr" rid="bibr15-1940082917739774">Lieftinck, 1962</xref>), as well as other bees including 
+                <italic>Amegilla cingulata</italic> Fabricius or 
+                <italic>Xylocopa caerulea</italic> Fabricius. It is worth noting that 
+                <italic>A. cingulata</italic> was seen puddling at the exact same location as 
+                <italic>H. tawonoides</italic> and that both of these insects have blue, light-reflecting bands on the abdomen. Thus, 
+                <italic>H. tawonoides</italic> is most probably not a mimic of a single model species, but imitates features found in many bees which are widespread in Southeast Asia (
+                <xref ref-type="bibr" rid="bibr15-1940082917739774">Lieftinck, 1962</xref>). Behavioral and acoustic mimicry, as well as the biology of this elusive clearwing moth, would be interesting topics for future studies on this species. Finding the food plant would allow to answer the question how strictly 
+                <italic>H. tawonoides</italic> is associated with its habitat. Can the larvae be found on plants which occur only in Southeast Asian primary rainforests?
+            </p>
+        </sec>
+        <sec id="sec11-1940082917739774">
+            <title>Implications for Conservation</title>
+            <p>Knowledge on the habitat, behavior, and conservation status of Oriental Sesiidae is scarce and photographic documentation exceeding that of pinned specimens in museum collections is extremely uncommon. New species descriptions are often made based only on 100-year-old specimens and are limited to morphological features. Even DNA barcoding is rarely done in such cases. It is also not uncommon that an old holotype is the only known record for a taxon providing no information whatsoever if the species still exists (
+                <xref ref-type="bibr" rid="bibr11-1940082917739774">Hochkirch, 2016</xref>). This was also the case for 
+                <italic>H. tawonoides</italic> until its rediscovery described herein. This species, as well as other sesiids studied by the authors (
+                <xref ref-type="bibr" rid="bibr19-1940082917739774">Skowron Volponi &amp; Volponi, 2017</xref>; 
+                <xref ref-type="bibr" rid="bibr18-1940082917739774">Skowron et al., 2015</xref>), seems to be associated with a very specific habitat: banks of clean rivers flowing through Malaysian primary lowland dipterocarp forests. These highly vulnerable ecosystems are vanishing rapidly. Malaysia has one of the most biodiverse ecosystems and the highest deforestation rates in the world. Forest loss reached 14.4% between 2000 and 2012. At the same time, Malaysia’s oil palm plantations grew by approximately 50% (
+                <xref ref-type="bibr" rid="bibr4-1940082917739774">Butler, 2013</xref>).
+            </p>
+            <p>Because of their elusive nature, members of the Sesiidae family are rarely observed in their natural habitat, and thus it is impossible to estimate the size of specific populations. However, over several years of studies in the same area, observing habitats typical for sesiids, the authors observed only 12 individuals of 
+                <italic>H. tawonoides</italic> (or maybe even less as they might have been the same moths returning to a chosen spot). This, as well as the fact that this species has not been seen for 130 years, indicates that it is not common. 
+                <italic>H. tawonoides</italic> is only an example of a species associated with primary rainforests: other sesiids but also charismatic mammals such as tigers, elephants, gibbons, and sun bears, to name just a few, are additional animals which will vanish along with these ecosystems. Given the current rate of habitat loss and species extinction, it is of crucial importance to study and catalog both species new to science and those that have been discovered many years ago and not seen since that time. Without knowledge of biodiversity, its conservation is impossible.
+            </p>
+        </sec>
+    </body>
+    <back>
+        <ack>
+            <title>Acknowledgments</title>
+            <p>I thank Economic Planning Unit and the Department of Wildlife and National Parks, Malaysia, for giving research permission and especially Badmanathan Munisamy for being my research counterpart. I would also like to thank Eng Lim Law for his support and advice every time I visit Malaysia. My cordial thanks to Dr. David Lees (Natural History Museum, London) for allowing me to examine his Sesiidae collection. I am grateful to Dr. Axel Kallies for his opinion on the described specimens. I thank Professor Grzegorz Węgrzyn for his support. Microscopic photographs were taken in the Department of Invertebrate Zoology and Parasitology, University of Gdansk, Poland.</p>
+        </ack>
+        <sec id="sec12-1940082917739774">
+            <title>Declaration of Conflicting Interests</title>
+            <p>The author(s) declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.</p>
+        </sec>
+        <sec id="sec13-1940082917739774">
+            <title>Funding</title>
+            <p>The author(s) disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: M. A. Skowron Volponi received funding through a doctoral scholarship registration number 2016/20/T/NZ8/00541 from the National Science Centre in Poland. This study was partially funded by task funds nos. DS 530-L140-D242-17 and DS 530-8645-D691-17.</p>
+        </sec>
+        <sec id="sec14-1940082917739774">
+            <title>Supplemental Material</title>
+            <p>The supplementary material for this article is available online.</p>
+        </sec>
+        <ref-list>
+            <title>References</title>
+            <ref id="bibr1-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Arita</surname>
+                            <given-names>Y.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Gorbunov</surname>
+                            <given-names>O.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>1995</year>) 
+                    <article-title>A revision of the genus 
+                        <italic>Heterosphecia</italic> Le Cerf, 1916 (Lepidoptera: Sesiidae, Osminiini)
+                    </article-title>. 
+                    <source>Tinea</source>
+                    <volume>14</volume>: 
+                    <fpage>131</fpage>–
+                    <lpage>141</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr2-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Arita</surname>
+                            <given-names>Y.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Gorbunov</surname>
+                            <given-names>O.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2000</year>) 
+                    <article-title>Notes on the tribe Osminiini (Lepidoptera, Sesiidae) from Vietnam, with descriptions of new taxa</article-title>. 
+                    <source>Transactions of the Lepidopterological Society of Japan</source>
+                    <volume>51</volume>(
+                    <issue>1</issue>): 
+                    <fpage>49</fpage>–
+                    <lpage>74</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr3-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Beck</surname>
+                            <given-names>J.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Muhlenberg</surname>
+                            <given-names>E.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Fiedler</surname>
+                            <given-names>K.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>1999</year>) 
+                    <article-title>Mud-puddling behavior in tropical butterflies: In search of proteins or minerals?</article-title>
+                    <source>Oecologia</source>
+                    <volume>119</volume>: 
+                    <fpage>140</fpage>–
+                    <lpage>148</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr4-1940082917739774">
+                <mixed-citation publication-type="other">
+                    <comment>Butler, R. A. (2013) Malaysia has the world’s highest deforestation rate, reveals Google forest map. 
+                        <italic>Mongabay</italic>. Retrieved from 
+                        <ext-link ext-link-type="uri" xlink:href="https://news.mongabay.com/2013/11/malaysia-has-the-worlds-highest-deforestation-rate-reveals-google-forest-map/">https://news.mongabay.com/2013/11/malaysia-has-the-worlds-highest-deforestation-rate-reveals-google-forest-map/</ext-link>
+                    </comment>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr5-1940082917739774">
+                <mixed-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Corlett</surname>
+                            <given-names>R. T.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Primack</surname>
+                            <given-names>R. B.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2011</year>) 
+                    <source>Tropical rain forests: An ecological and biogeographical comparison</source>, 
+                    <edition>(2nd ed)</edition>. 
+                    <publisher-loc>West Sussex, England</publisher-loc>: 
+                    <publisher-name>Wiley-Blackwell</publisher-name>, pp. 
+                    <fpage>22</fpage>–
+                    <lpage>23</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr6-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Dittrich</surname>
+                            <given-names>W.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Gilbert</surname>
+                            <given-names>F.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Green</surname>
+                            <given-names>P.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>McGregor</surname>
+                            <given-names>P.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Grewcock</surname>
+                            <given-names>D.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>1993</year>) 
+                    <article-title>Imperfect mimicry—A pigeon’s perspective</article-title>. 
+                    <source>Proceedings of the Royal Society B: Biological Sciences</source>
+                    <volume>251</volume>: 
+                    <fpage>195</fpage>–
+                    <lpage>200</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr7-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Duckworth</surname>
+                            <given-names>W. D.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Eichlin</surname>
+                            <given-names>T. D.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>1974</year>) 
+                    <article-title>Clearwing moths of Australia and New Zealand (Lepidoptera: Sesiidae)</article-title>. 
+                    <source>Smithsonian Contributions to Zoology</source>
+                    <volume>180</volume>: 
+                    <fpage>1</fpage>–
+                    <lpage>45</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr8-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Edmunds</surname>
+                            <given-names>M.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>1999</year>) 
+                    <article-title>Why are there good and poor mimics?</article-title>
+                    <source>Biological Journal of the Linnean Society</source>
+                    <volume>70</volume>: 
+                    <fpage>459</fpage>–
+                    <lpage>466</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr9-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Gorbunov</surname>
+                            <given-names>O.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2015</year>) 
+                    <article-title>Scientific note: Clearwing moths (Lepidoptera: Sesiidae) of Laos. I. 
+                        <italic>Akaisphecia melanopuncta</italic> O. Gorbunov &amp; Arita, 1995 (Sesiidae: Sesiinae:Osminiini)
+                    </article-title>. 
+                    <source>Tropical Lepidoptera Research</source>
+                    <volume>25</volume>(
+                    <issue>2</issue>): 
+                    <fpage>98</fpage>–
+                    <lpage>100</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr10-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Hebert</surname>
+                            <given-names>P. D. N.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Penton</surname>
+                            <given-names>E. H.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Burns</surname>
+                            <given-names>J. M.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Janzen</surname>
+                            <given-names>D. H.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Hallwachs</surname>
+                            <given-names>W.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2004</year>) 
+                    <article-title>Ten species in one: DNA barcoding reveals cryptic species in the neotropical skipper butterfly 
+                        <italic>Astraptes fulgerator</italic>
+                    </article-title>. 
+                    <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+                    <volume>101</volume>: 
+                    <fpage>14812</fpage>–
+                    <lpage>14817</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr11-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Hochkirch</surname>
+                            <given-names>A.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2016</year>) 
+                    <article-title>The insect crisis we can’t ignore</article-title>. 
+                    <source>Nature</source>
+                    <volume>539</volume>: 
+                    <fpage>141</fpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr12-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Ivanova</surname>
+                            <given-names>N. V.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>deWaard</surname>
+                            <given-names>J. R.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Hebert</surname>
+                            <given-names>P. D. N.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2006</year>) 
+                    <article-title>An inexpensive, automation friendly protocol for recovering high quality DNA</article-title>. 
+                    <source>Molecular Ecology Note</source>
+                    <volume>6</volume>: 
+                    <fpage>998</fpage>–
+                    <lpage>1002</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr13-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Kallies</surname>
+                            <given-names>A.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2003</year>) 
+                    <article-title>Three new species of 
+                        <italic>Heterosphecia</italic> Le Cerf, 1916, from the Oriental Region (Lepidoptera: Sesiidae, Sesiinae)
+                    </article-title>. 
+                    <source>Entomologische Zeitschrift</source>
+                    <volume>113</volume>(
+                    <issue>2</issue>): 
+                    <fpage>34</fpage>–
+                    <lpage>37</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr14-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Le Cerf</surname>
+                            <given-names>F.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>1916</year>) 
+                    <article-title>Explication des planches [Explanation of plates]</article-title>. 
+                    <source>Études de Lépidoptérologie Comparée (Oberthür)</source>
+                    <volume>12</volume>(
+                    <issue>1</issue>): 
+                    <fpage>14, pls. 375, 376, 379, 381</fpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr15-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Lieftinck</surname>
+                            <given-names>M. A.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>1962</year>) 
+                    <article-title>Revision of the Indo-Australian species of the genus Thyreus Panzer (=Crocisa Jurine) (Hym., Apoidea). Part 3. Oriental and Australian species</article-title>. 
+                    <source>Zoologische Verhandelingen</source>
+                    <volume>53</volume>: 
+                    <fpage>1</fpage>–
+                    <lpage>212</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr16-1940082917739774">
+                <mixed-citation publication-type="other">
+                    <comment>Ratnasingham, S., &amp; Hebert, P. D. N. (2007). Barcoding. BOLD: The barcode of life data system (
+                        <ext-link ext-link-type="uri" xlink:href="www.barcodinglife.org">www.barcodinglife.org</ext-link>). 
+                        <italic>Molecular Ecology Notes, 7</italic> (3), 355–364
+                    </comment>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr17-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Sathiamurthy</surname>
+                            <given-names>E.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Voris</surname>
+                            <given-names>H. K.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2006</year>) 
+                    <article-title>Maps of holocene sea level transgression and submerged lakes on the Sunda Shelf</article-title>. 
+                    <source>The Natural History Journal of Chulalongkorn University</source>. 
+                    <issue>(Suppl. 2</issue>) 
+                    <fpage>1</fpage>–
+                    <lpage>43</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr18-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Skowron</surname>
+                            <given-names>M. A.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Munisamy</surname>
+                            <given-names>B.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Hamid</surname>
+                            <given-names>S. B.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Węgrzyn</surname>
+                            <given-names>G.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2015</year>) 
+                    <article-title>A new species of clearwing moth (Lepidoptera: Sesiidae: Osminiini) from Peninsular Malaysia, exhibiting bee-like morphology and behavior</article-title>. 
+                    <source>Zootaxa</source>
+                    <volume>4032</volume>(
+                    <issue>4</issue>): 
+                    <fpage>426</fpage>–
+                    <lpage>434</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr19-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Skowron Volponi</surname>
+                            <given-names>M. A.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Volponi</surname>
+                            <given-names>P.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2017</year>) 
+                    <article-title>A new species of wasp-mimicking clearwing moth, 
+                        <italic>Pyrophleps ellawi,</italic> from Peninsular Malaysia: Description, DNA barcode and behavioral notes (Lepidoptera, Sesiidae)
+                    </article-title>. 
+                    <source>Zookeys</source>
+                    <volume>692</volume>: 
+                    <fpage>129</fpage>–
+                    <lpage>139</lpage>.
+                </mixed-citation>
+            </ref>
+            <ref id="bibr20-1940082917739774">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <string-name>
+                            <surname>Szabolcs</surname>
+                            <given-names>S.</given-names>
+                        </string-name>, 
+                        <string-name>
+                            <surname>Pühringer</surname>
+                            <given-names>F.</given-names>
+                        </string-name>
+                    </person-group> (
+                    <year>2016</year>) 
+                    <article-title>New records of 
+                        <italic>Similipepsis ekisi</italic> Wang, 1984 (Lepidoptera: Sesiidae) from Liberia, West Africa, and notes on its mud-puddling behaviour
+                    </article-title>. 
+                    <source>Metamorphosis</source>
+                    <volume>27</volume>: 
+                    <fpage>1</fpage>–
+                    <lpage>2</lpage>.
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+</article>

@@ -107,6 +107,10 @@ $dois=array('10.3161/00034541ANZ2016.66.3.010');
 // Taylor & Francis with author affiliations and references cited
 $dois=array('10.3852/09-137');
 
+// A 130-Year-Old Specimen Brought Back to Life: A Lost Species of Bee-Mimicking Clearwing Moth, Heterosphecia tawonoides (Lepidoptera: Sesiidae: Osminiini), Rediscovered in Peninsular Malaysia’s Primary Rainforest
+// ORCID and refs
+$dois=array('10.1177/1940082917739774'); 
+
 foreach ($dois as $doi)
 {
 	$doi = strtolower($doi);
