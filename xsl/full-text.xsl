@@ -141,9 +141,6 @@ exclude-result-prefixes="xlink mml tp"
         </div>
     </xsl:template>
     
-
-    
-    
     <!-- authors -->
     <xsl:template match="//contrib-group">
         <div class="authors">
@@ -165,13 +162,14 @@ exclude-result-prefixes="xlink mml tp"
                        
         	<button type="button" class="btn btn-default btn-sm">
             <xsl:apply-templates select="name" />
+            <xsl:apply-templates select="string-name" />
             <xsl:apply-templates select="contrib-id" />
             </button>
         </xsl:if>
     </xsl:template>
     
     <!-- person's name -->
-    <xsl:template match="name">
+    <xsl:template match="name | string-name">
         <xsl:if test="string-name">
             <xsl:value-of select="string-name" />
         </xsl:if>
@@ -453,9 +451,10 @@ exclude-result-prefixes="xlink mml tp"
 <!-- authors -->
 <xsl:template match="//person-group">
 	<xsl:apply-templates select="name"/>
+	<xsl:apply-templates select="string-name"/>
 </xsl:template>
 
-<xsl:template match="name">
+<xsl:template match="name | string-name">
 	<xsl:if test="position() != 1"><xsl:text>, </xsl:text></xsl:if>
 	<xsl:value-of select="surname" />
 	<xsl:text>, </xsl:text>
