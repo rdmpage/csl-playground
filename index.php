@@ -313,18 +313,28 @@ function display_record($id, $full = false)
 	    $xsl_filename = dirname(__FILE__) . '/xsl/' . 'no-full-text.xsl';
 	}
    
-    
-    if (isset($work->message->xml))
+    if (0) // 0 while we sort out how to display full text including images
     {
-    	$xml = $work->message->xml;
-    	$xsl_filename = dirname(__FILE__) . '/xsl/' . 'full-text.xsl';
-    }
-    else
-    {
+    	// If we have full text XML (i.e., JATS XML for this article) use that.
+    	// We need 
+		if (isset($work->message->xml))
+		{
+			$xml = $work->message->xml;
+			$xsl_filename = dirname(__FILE__) . '/xsl/' . 'full-text.xsl';
+		}
+		else
+		{
+			$url = $config['web_server'] . $config['web_root'] . 'api.php?id=' . urlencode($id) . '&format=xml';
+			$xml = get($url);
+		}
+	}
+	else
+	{
+		// Just use XML we generate from CSL-JSON
 		$url = $config['web_server'] . $config['web_root'] . 'api.php?id=' . urlencode($id) . '&format=xml';
 		$xml = get($url);
 	}
-			
+				
 	if ($xml == '')
 	{
 		// handle error
